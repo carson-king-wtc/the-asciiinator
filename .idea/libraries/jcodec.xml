@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="jcodec">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/jcodec-0.2.3/android/sample/app/src/androidTest/java" />
+      <root url="file://$PROJECT_DIR$/jcodec-0.2.3/android/sample/app/src/main/java" />
+      <root url="file://$PROJECT_DIR$/jcodec-0.2.3/android/src/main" />
+      <root url="file://$PROJECT_DIR$/jcodec-0.2.3/android/src/test" />
+      <root url="file://$PROJECT_DIR$/jcodec-0.2.3/javase/src/main/java" />
+      <root url="file://$PROJECT_DIR$/jcodec-0.2.3/javase/src/test/java" />
+      <root url="file://$PROJECT_DIR$/jcodec-0.2.3/jplayer/src/main/java" />
+      <root url="file://$PROJECT_DIR$/jcodec-0.2.3/samples/main/java" />
+      <root url="file://$PROJECT_DIR$/jcodec-0.2.3/samples/test/java" />
+      <root url="file://$PROJECT_DIR$/jcodec-0.2.3/src/main/java" />
+      <root url="file://$PROJECT_DIR$/jcodec-0.2.3/src/test/java" />
+      <root url="file://$PROJECT_DIR$/jcodec-0.2.3/streaming/main/java" />
+    </SOURCES>
+  </library>
+</component>
