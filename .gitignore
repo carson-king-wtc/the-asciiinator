@@ -2,6 +2,7 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+javacv-platform-1.5.10-bin/
 
 ### Eclipse ###
 .apt_generated
@@ -27,3 +28,4 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+*.jar

@@ -26,5 +26,39 @@
       </library>
     </orderEntry>
     <orderEntry type="library" exported="" name="jcodec" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/javacpp-platform-1.5.10-bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/javacpp-platform-1.5.10-bin" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/javacv-platform-1.5.10-bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/javacv-platform-1.5.10-bin/samples" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/javacv-platform-1.5.10-bin" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../javacv-platform-1.5.10-bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../javacv-platform-1.5.10-bin/samples" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../javacv-platform-1.5.10-bin" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
