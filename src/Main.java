@@ -19,13 +19,14 @@ public class Main{
     public static void main(String []args) throws IOException, Exception
     {
         VideoToFrames video = new VideoToFrames();
-        int frameNumber=151;
+        int frameNumber=1000000;
         video.VideoToFrames("bad apple.mp4",frameNumber);
         System.out.println("Done!");
         System.out.println("Ascii time!!!11!1!1");
 
 
         for(int i=0;i<frameNumber;i++) {
+            System.out.println("Ascii-ing #"+i);
             BufferedImage image = ImageIO.read(new File("frame-dump/video-frame-" + i + ".png"));
             Java2DFrameConverter converter = new Java2DFrameConverter();
             int[][][] list=new int[image.getWidth()][image.getHeight()][3];
@@ -56,7 +57,8 @@ public class Main{
             }
             writer.close();
         }
-        System.out.println("Ascii done, opening window");
+        System.out.println("Ascii done");
+        /*
         JFrame window = new JFrame();
 
         BufferedImage image = ImageIO.read(new File("frame-dump/video-frame-" + 0 + ".png"));
@@ -99,5 +101,6 @@ public class Main{
             }
         }
         window.dispatchEvent(new WindowEvent(window, WindowEvent.WINDOW_CLOSING));
+        */
     }
 }
