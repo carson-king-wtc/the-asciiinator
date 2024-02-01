@@ -20,7 +20,7 @@ public class Main{
     {
         VideoToFrames video = new VideoToFrames();
         int frameNumber=1000000;
-        video.VideoToFrames("I love gd cologne.mp4",frameNumber);
+        video.VideoToFrames("bad apple.mp4",frameNumber);
         System.out.println("Done!");
         System.out.println("Ascii time!!!11!1!1");
 

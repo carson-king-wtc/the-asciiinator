@@ -19,4 +19,4 @@ for(var i=0;i<frames;i++)
 	}
 }
 aud=audio_play_sound(snd_music,1000,false)
-big=true
+big=false
