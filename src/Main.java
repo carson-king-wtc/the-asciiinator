@@ -20,7 +20,7 @@ public class Main{
     {
         VideoToFrames video = new VideoToFrames();
         int frameNumber=1000000;
-        video.VideoToFrames("bad apple.mp4",frameNumber);
+        video.VideoToFrames("I love gd cologne.mp4",frameNumber);
         System.out.println("Done!");
         System.out.println("Ascii time!!!11!1!1");
 
@@ -47,7 +47,7 @@ public class Main{
             PrintWriter writer = new PrintWriter("frame-ascii/frame"+i+".txt", "UTF-8");
             for (int x = 0; x < image.getHeight(); x++) {
                 for (int y = 0; y < image.getWidth(); y++) {
-                    if (list[y][x][0] + list[y][x][1] + list[y][x][2] >= 382 * 2) {
+                    if (list[y][x][0] + list[y][x][1] + list[y][x][2] >= 382) {
                         writer.print("  ");
                     } else {
                         writer.print("[]");
