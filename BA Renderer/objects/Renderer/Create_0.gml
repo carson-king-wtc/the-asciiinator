@@ -8,7 +8,7 @@ currentFrame=0
 for(var i=0;i<frames;i++)
 {
 	show_debug_message("loading save..."+string(i))
-	var _file="C:/Users/carson/Documents/bad-apple-but-uhhhh/frame-ascii/frame"+string(i)+".txt"
+	var _file="C:/Users/ck6100/Documents/GitHub/Bad Apple/bad-apple-but-uhhhh/frame-ascii/frame"+string(i)+".txt"
 	if(!file_exists(_file))
 	{
 		break;
@@ -19,4 +19,4 @@ for(var i=0;i<frames;i++)
 	}
 }
 aud=audio_play_sound(snd_music,1000,false)
-big=false
+big=true
